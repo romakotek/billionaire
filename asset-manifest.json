@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/billionaire/static/css/main.7fea31f4.css",
+    "main.js": "/billionaire/static/js/main.212fe2a4.js",
+    "static/js/845.7ad932e5.chunk.js": "/billionaire/static/js/845.7ad932e5.chunk.js",
+    "static/media/play_background.mp3": "/billionaire/static/media/play_background.e8428b0e67cf1c0bb397.mp3",
+    "static/media/wrong.mp3": "/billionaire/static/media/wrong.585aa0fd9c991aad95ab.mp3",
+    "static/media/correct.mp3": "/billionaire/static/media/correct.211016a5322022882afe.mp3",
+    "index.html": "/billionaire/index.html",
+    "main.7fea31f4.css.map": "/billionaire/static/css/main.7fea31f4.css.map",
+    "main.212fe2a4.js.map": "/billionaire/static/js/main.212fe2a4.js.map",
+    "845.7ad932e5.chunk.js.map": "/billionaire/static/js/845.7ad932e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fea31f4.css",
+    "static/js/main.212fe2a4.js"
+  ]
+}
