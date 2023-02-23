@@ -1,0 +1,157 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "question": "What is the correct command to create a new React project?",
+      "answers": [
+        { "text": "npm create-react-app myReactApp", "correct": true },
+        { "text": "npm create-react-app", "correct": false },
+        { "text": "npx create-react-app myReactApp", "correct": false },
+        { "text": "npx create-react-app", "correct": false }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What does myReactApp refer to in the following command? npx create-react-app myReactApp",
+      "answers": [
+        { "text": "The directory to create the new app in", "correct": false },
+        { "text": "The type of app to create", "correct": false },
+        {
+          "text": "The name you want to use for the new app",
+          "correct": true
+        },
+        { "text": "A reference to an existing app", "correct": false }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What command is used to start the React local development server?",
+      "answers": [
+        { "text": "npm run dev", "correct": false },
+        { "text": "npm serve", "correct": false },
+        { "text": "npm start", "correct": true },
+        { "text": "npm build", "correct": false }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the default local host port that a React development server uses?",
+      "answers": [
+        { "text": "3000", "correct": true },
+        { "text": "5000", "correct": false },
+        { "text": "8080", "correct": false },
+        { "text": "3500", "correct": false }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "To develop and run React code, Node.js is required.",
+      "answers": [
+        { "text": "true", "correct": true },
+        { "text": "false", "correct": false }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What type of element will be rendered from the following code?\nfunction Car() {\n\treturn <h1>Ford Mustang</h1>;\n}\n\nconst root = createRoot(document.getElementById('root'));\nroot.render(<Car />);",
+      "answers": [
+        { "text": "h1", "correct": true },
+        { "text": "ReactDom", "correct": false },
+        { "text": "div", "correct": false },
+        { "text": "Component", "correct": false }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "React can only render elements in the root document element.",
+      "answers": [
+        { "text": "False", "correct": true },
+        { "text": "True", "correct": false }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which keyword creates a constant in JavaScript?",
+      "answers": [
+        { "text": "let", "correct": false },
+        { "text": "constant", "correct": false },
+        { "text": "const", "correct": true },
+        { "text": "var", "correct": false }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "A copy of the 'real' DOM that is kept in memory is called what?",
+      "answers": [
+        { "text": "Virtual DOM", "correct": true },
+        { "text": "Shadow DOM", "correct": false },
+        { "text": "DOM", "correct": false },
+        { "text": "React DOM", "correct": false }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "React component names must begin with an uppercase letter.",
+      "answers": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Which operator can be used to conditionally render a React component?",
+      "answers": [
+        { "text": "&&", "correct": true },
+        { "text": "::", "correct": false },
+        { "text": "??", "correct": false },
+        { "text": "||", "correct": false }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "When rendering a list using the JavaScript map() method, what is required for each element rendered?",
+      "answers": [
+        { "text": "id", "correct": false },
+        { "text": "key", "correct": true },
+        { "text": "index", "correct": false },
+        { "text": "data", "correct": false }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What tool does React use to compile JSX?",
+      "answers": [
+        { "text": "Babel", "correct": true },
+        { "text": "JSX Compiler", "correct": false },
+        { "text": "ReactDOM", "correct": false },
+        { "text": "React Router", "correct": false }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "How can you optimize performance for a function component that always renders the same way?",
+      "answers": [
+        {
+          "text": "Wrap it in the React.memo higher-order component.",
+          "correct": true
+        },
+        {
+          "text": "Use the shouldComponentUpdate lifecycle method.",
+          "correct": false
+        },
+        { "text": "Use the useMemo Hook.", "correct": false },
+        { "text": "Use the useReducer Hook.", "correct": false }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What props will be available to the following component?\n<Car {...props} />",
+      "answers": [
+        { "text": "only static ones", "correct": false },
+        { "text": "children", "correct": false },
+        { "text": "all of them", "correct": true },
+        { "text": "only updated ones", "correct": false }
+      ]
+    }
+  ]
+}

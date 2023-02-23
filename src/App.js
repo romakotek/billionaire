@@ -78,7 +78,22 @@ function App() {
   const [timeOut, setTimeOut] = useState(false);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [earned, setEarned] = useState("$ 0");
+  const [question, setQuestion] = useState([]);
 
+  const fetchedData = async () => {
+    const response = await fetch(
+      "https://my-json-server.typicode.com/romakotek/json/db"
+    );
+    const jsonData = await response.json();
+    setQuestion(jsonData.data);
+  };
+
+  useEffect(() => {
+    fetchedData();
+  }, []);
+
+  console.log(data);
+  console.log(question);
   const moneyPyramid = useMemo(
     () =>
       [
@@ -129,7 +144,7 @@ function App() {
                 </div>
                 <div className="bottom">
                   <Millionaire
-                    data={data}
+                    data={question}
                     questionNumber={questionNumber}
                     setQuestionNumber={setQuestionNumber}
                     setTimeOut={setTimeOut}
